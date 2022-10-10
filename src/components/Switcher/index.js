@@ -26,6 +26,10 @@ const Switcher = () => {
   }
 
   useEffect(() => {
+    // console.log(`BANANAS`)
+  }, [])
+
+  useEffect(() => {
     // Check Theme Version
     const btnTheme = document.querySelector('.btn-theme')
     if (body.classList.contains('dark-version')) {
@@ -34,11 +38,11 @@ const Switcher = () => {
   })
 
   const colorLists = {
-    //   "color-var-0": "#212121",
-    //   "color-var-1": "#E65B1C",
-    //   "color-var-2": "#f15445",
-    //   "color-var-3": "#51becd",
-    //   "color-var-4": "#e59701"
+    // 'color-var-0': '#212121',
+    // 'color-var-1': '#E65B1C',
+    // 'color-var-2': '#f15445',
+    // 'color-var-3': '#51becd',
+    // 'color-var-4': '#e59701',
   }
 
   let coloPickItem = []
@@ -62,7 +66,7 @@ const Switcher = () => {
           <h4>Chose Color</h4>
           <ul className="color-setting">{coloPickItem}</ul>
         </div>
-
+        {/* Dark mode */}
         <div className="customizer-item mt-25">
           <h4>Switch Theme</h4>
           <button className="btn-theme" onClick={themeHandler}>

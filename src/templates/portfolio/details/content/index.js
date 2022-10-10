@@ -3,6 +3,8 @@ import { useParams } from 'react-router-dom'
 import { Carousel } from 'react-bootstrap'
 import sanityClient from '../../../../sanity'
 
+//
+
 const PortfolioDetailsContent = () => {
   const [singlePost, setSinglePost] = useState(null)
   const { slug } = useParams()
@@ -350,7 +352,7 @@ publishedAt,
         )}
       </Carousel>
       <div>
-        {singlePost && (
+        {/* {singlePost && (
           <p
             className="text-body"
             style={{
@@ -361,7 +363,7 @@ publishedAt,
           >
             {singlePost?.body[0]?.children[0]?.text}
           </p>
-        )}
+        )} */}
       </div>
     </div>
   )

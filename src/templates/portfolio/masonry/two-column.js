@@ -45,8 +45,6 @@ publishedAt,
       .catch(console.error)
   }, [])
 
-  console.log(`THE WORKS DATA IS >>>>`, postData)
-
   return (
     <Fragment>
       <PageContainer classes={'bg-grey'} fullWidth={fullWidth}>
@@ -63,7 +61,7 @@ publishedAt,
               >
                 <Link
                   to={'/works/' + post.slug.current}
-                  key={post.slug.current}
+                  key={post?.slug.current}
                   className={'d-block'}
                 >
                   <div className="portfolio-image container">
@@ -74,7 +72,7 @@ publishedAt,
                       // style={{ maxWidth: '320px' }}
                     />
                     <div className="portfolio-content overlay">
-                      <div className="title text">{post.title}</div>
+                      <div className="title text">{post?.title}</div>
                     </div>
                   </div>
                 </Link>

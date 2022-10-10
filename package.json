@@ -10,6 +10,7 @@
     "@sanity/image-url": "^1.0.1",
     "bootstrap": "^4.4.1",
     "disqus-react": "^1.1.2",
+    "firebase-tools": "^11.7.0",
     "font-awesome": "^4.7.0",
     "imagesloaded": "^4.1.4",
     "jquery": "1.9.1",
@@ -28,8 +29,8 @@
     "slick-carousel": "^1.8.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts --openssl-legacy-provider start ",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
