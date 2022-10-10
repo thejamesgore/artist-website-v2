@@ -10,7 +10,7 @@ const HomeBlogPageHeader = () => {
   useEffect(() => {
     sanityClient
       .fetch(
-        `*[slug.current == "random-instagram-posts"]{
+        `*[slug.current == "oilpainting-i"]{
         _id,
   title,
   slug,

@@ -56,6 +56,7 @@ publishedAt,
             justifyContent: 'space-around',
             alignItems: 'center',
             paddingTop: '10',
+
             // flexDirection: 'column',
           }}
         >

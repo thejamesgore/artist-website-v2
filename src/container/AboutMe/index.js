@@ -1,10 +1,34 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import Thumbnail from '../../components/thumbnail'
 import Content from '../../components/content'
 import aboutData from '../../data/about-me'
+import sanityClient from '../../sanity'
 
 const AboutMe = ({ type }) => {
+  const [author, setAuthor] = useState(null)
+
+  useEffect(() => {
+    sanityClient
+      .fetch(
+        `
+    *[_type == "author"]{
+      bio,
+      image{
+        asset -> {
+          _id,
+          url
+        }
+      }
+    }
+    `
+      )
+      .then((data) => setAuthor(data[0]))
+      .catch(console.error)
+  }, [])
+
+  console.log(`author data is`, author)
+
   return (
     <div className={type !== 'page' ? 'section-padding section' : null}>
       <Container>
