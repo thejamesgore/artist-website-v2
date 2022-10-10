@@ -48,17 +48,21 @@ publishedAt,
   return (
     <Fragment>
       <PageContainer classes={'bg-grey'} fullWidth={fullWidth}>
-        <div classname={`portfolio-item `} style={{ display: 'flex' }}>
+        <div
+          classname={`portfolio-item `}
+          style={{
+            display: 'flex',
+            flexWrap: 'wrap',
+            justifyContent: 'space-around',
+            alignItems: 'center',
+            paddingTop: '10',
+
+            // flexDirection: 'column',
+          }}
+        >
           {postData &&
             postData.map((post, index) => (
-              <div
-                style={{
-                  display: 'flex',
-                  justifyContent: 'space-evenly',
-                  alignItems: 'center',
-                }}
-                key={index}
-              >
+              <div style={{ paddingTop: 10 }} key={index}>
                 <Link
                   to={'/works/' + post.slug.current}
                   key={post?.slug.current}
@@ -69,7 +73,7 @@ publishedAt,
                       src={post.image1.asset.url}
                       alt={post.title}
                       className="gallery-img image"
-                      // style={{ maxWidth: '320px' }}
+                      style={{ maxWidth: '600px' }}
                     />
                     <div className="portfolio-content overlay">
                       <div className="title text">{post?.title}</div>
