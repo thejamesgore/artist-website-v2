@@ -6,28 +6,39 @@ import aboutData from '../../data/about-me'
 import sanityClient from '../../sanity'
 
 const AboutMe = ({ type }) => {
-  const [author, setAuthor] = useState(null)
+  const [authorBio, setAuthorBio] = useState(null)
+  const [authorImg, setAuthorImg] = useState(null)
 
   useEffect(() => {
     sanityClient
       .fetch(
         `
     *[_type == "author"]{
-      bio,
-      image{
-        asset -> {
-          _id,
-          url
-        }
-      }
+      bio[0],
+      
     }
     `
       )
-      .then((data) => setAuthor(data[0]))
+      .then((data) => setAuthorBio(data[0].bio.children[0].text))
       .catch(console.error)
+
+    sanityClient
+      .fetch(
+        `
+        *[_type == "author"]{
+      bio[0],
+      
+      image{
+        asset -> {
+          url
+        }
+      }
+    }`
+      )
+      .then((data) => setAuthorImg(data[0].image.asset.url))
   }, [])
 
-  console.log(`author data is`, author)
+  console.log(`author data is`, authorImg)
 
   return (
     <div className={type !== 'page' ? 'section-padding section' : null}>
@@ -36,7 +47,8 @@ const AboutMe = ({ type }) => {
           <Col lg={6}>
             <Thumbnail
               classes={'about-thumbnail mb-md-30 mb-sm-30 mb-xs-30'}
-              thumb={`about/${aboutData.thumb}`}
+              thumb={authorImg}
+              style={{}}
             />
           </Col>
 
@@ -45,7 +57,7 @@ const AboutMe = ({ type }) => {
               {type !== 'page' ? (
                 <h3 className="block-title">ABOUT ME</h3>
               ) : null}
-              <p>{aboutData.bio}</p>
+              <p>{authorBio}</p>
             </Content>
           </Col>
         </Row>
