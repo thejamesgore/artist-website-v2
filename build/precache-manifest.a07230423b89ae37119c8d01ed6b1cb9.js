@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a8e7428eb70a3764ff9794cd0e41825a",
+    "revision": "c1c5ef0c21630f3c4b0d50e392a9b04b",
     "url": "/index.html"
   },
   {
-    "revision": "79e60050146edb0a54f4",
+    "revision": "31104cbc20efa0a664dc",
     "url": "/static/css/2.f784d1b5.chunk.css"
   },
   {
-    "revision": "75a750beeb19a891d7b2",
+    "revision": "8e31017ff8cb4eae16ce",
     "url": "/static/css/main.3ab52fd9.chunk.css"
   },
   {
-    "revision": "79e60050146edb0a54f4",
-    "url": "/static/js/2.eed688e3.chunk.js"
+    "revision": "31104cbc20efa0a664dc",
+    "url": "/static/js/2.052b3016.chunk.js"
   },
   {
     "revision": "5fe1aad8a986bee01a14df315560a6d8",
-    "url": "/static/js/2.eed688e3.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.052b3016.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "75a750beeb19a891d7b2",
-    "url": "/static/js/main.14913d26.chunk.js"
+    "revision": "8e31017ff8cb4eae16ce",
+    "url": "/static/js/main.a84dbb3c.chunk.js"
   },
   {
     "revision": "1749db49268ba15db8e2",
@@ -30,22 +30,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fe8bed5feea747e0797e24c4e8b26bb2",
     "url": "/static/media/404.fe8bed5f.png"
-  },
-  {
-    "revision": "6888294c1eea0095af07a5d303d5b976",
-    "url": "/static/media/96VZNEeq_400x400.6888294c.jpeg"
-  },
-  {
-    "revision": "75bdf1ccea521b72c1359f3e63097639",
-    "url": "/static/media/about.75bdf1cc.jpg"
-  },
-  {
-    "revision": "4a8c832994b48ee4bfc599baaae4410e",
-    "url": "/static/media/blog-single.4a8c8329.jpg"
-  },
-  {
-    "revision": "9c9a750812bab056b475fb9cc078f51e",
-    "url": "/static/media/favicon.9c9a7508.ico"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
@@ -66,10 +50,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
     "url": "/static/media/fontawesome-webfont.fee66e71.woff"
-  },
-  {
-    "revision": "53da834cf982da90647dc32565f82abf",
-    "url": "/static/media/service-bg.53da834c.png"
   },
   {
     "revision": "34c6010a2a87fcd287f2680335bc516a",
