@@ -153,16 +153,22 @@ publishedAt,
       <div className="container">
         <div className="row">
           <div className="blog-home-hero-content text-center col">
+            TEST
             {/*  */}
-
-            <div>
+            <div
+              style={{
+                flex: 1,
+                justifyContent: 'center',
+                alignItems: 'center',
+              }}
+            >
               <Carousel controls={false} indicators={false} interval={5000}>
                 {singlePost?.image1 && (
                   <Carousel.Item>
                     <img
                       src={singlePost.image1.asset.url}
                       alt={singlePost.title}
-                      style={{ maxHeight: '800px' }}
+                      style={{ Height: '600px' }}
                     />
                   </Carousel.Item>
                 )}
@@ -172,7 +178,7 @@ publishedAt,
                     <img
                       src={singlePost.image2.asset.url}
                       alt={singlePost.title}
-                      style={{ maxHeight: '800px' }}
+                      style={{ maxHeight: '600px' }}
                     />
                   </Carousel.Item>
                 )}
@@ -182,7 +188,7 @@ publishedAt,
                     <img
                       src={singlePost.image3.asset.url}
                       alt={singlePost.title}
-                      style={{ maxHeight: '800px' }}
+                      style={{ maxHeight: '600px' }}
                     />
                   </Carousel.Item>
                 )}
@@ -192,7 +198,7 @@ publishedAt,
                     <img
                       src={singlePost.image4.asset.url}
                       alt={singlePost.title}
-                      style={{ maxHeight: '800px' }}
+                      style={{ maxHeight: '600px' }}
                     />
                   </Carousel.Item>
                 )}
@@ -202,7 +208,7 @@ publishedAt,
                     <img
                       src={singlePost.image5.asset.url}
                       alt={singlePost.title}
-                      style={{ maxHeight: '800px' }}
+                      style={{ maxHeight: '600px' }}
                     />
                   </Carousel.Item>
                 )}
@@ -211,7 +217,7 @@ publishedAt,
                     <img
                       src={singlePost.image6.asset.url}
                       alt={singlePost.title}
-                      style={{ maxHeight: '800px' }}
+                      style={{ maxHeight: '600px' }}
                     />
                   </Carousel.Item>
                 )}
@@ -221,7 +227,7 @@ publishedAt,
                     <img
                       src={singlePost.image7.asset.url}
                       alt={singlePost.title}
-                      style={{ maxHeight: '800px' }}
+                      style={{ maxHeight: '600px' }}
                     />
                   </Carousel.Item>
                 )}
@@ -231,7 +237,7 @@ publishedAt,
                     <img
                       src={singlePost.image8.asset.url}
                       alt={singlePost.title}
-                      style={{ maxHeight: '800px' }}
+                      style={{ maxHeight: '600px' }}
                     />
                   </Carousel.Item>
                 )}
@@ -241,7 +247,7 @@ publishedAt,
                     <img
                       src={singlePost.image9.asset.url}
                       alt={singlePost.title}
-                      style={{ maxHeight: '800px' }}
+                      style={{ maxHeight: '600px' }}
                     />
                   </Carousel.Item>
                 )}
@@ -251,7 +257,7 @@ publishedAt,
                     <img
                       src={singlePost.image10.asset.url}
                       alt={singlePost.title}
-                      style={{ maxHeight: '800px' }}
+                      style={{ maxHeight: '600px' }}
                     />
                   </Carousel.Item>
                 )}
@@ -260,7 +266,7 @@ publishedAt,
                     <img
                       src={singlePost.image10.asset.url}
                       alt={singlePost.title}
-                      style={{ maxHeight: '800px' }}
+                      style={{ maxHeight: '600px' }}
                     />
                   </Carousel.Item>
                 )}
@@ -269,7 +275,7 @@ publishedAt,
                     <img
                       src={singlePost.image11.asset.url}
                       alt={singlePost.title}
-                      style={{ maxHeight: '800px' }}
+                      style={{ maxHeight: '600px' }}
                     />
                   </Carousel.Item>
                 )}
@@ -278,7 +284,7 @@ publishedAt,
                     <img
                       src={singlePost.image12.asset.url}
                       alt={singlePost.title}
-                      style={{ maxHeight: '800px' }}
+                      style={{ maxHeight: '600px' }}
                     />
                   </Carousel.Item>
                 )}
@@ -287,7 +293,7 @@ publishedAt,
                     <img
                       src={singlePost.image13.asset.url}
                       alt={singlePost.title}
-                      style={{ maxHeight: '800px' }}
+                      style={{ maxHeight: '600px' }}
                     />
                   </Carousel.Item>
                 )}
@@ -296,7 +302,7 @@ publishedAt,
                     <img
                       src={singlePost.image15.asset.url}
                       alt={singlePost.title}
-                      style={{ maxHeight: '800px' }}
+                      style={{ maxHeight: '600px' }}
                     />
                   </Carousel.Item>
                 )}
@@ -305,7 +311,7 @@ publishedAt,
                     <img
                       src={singlePost.image15.asset.url}
                       alt={singlePost.title}
-                      style={{ maxHeight: '800px' }}
+                      style={{ maxHeight: '600px' }}
                     />
                   </Carousel.Item>
                 )}
@@ -314,7 +320,7 @@ publishedAt,
                     <img
                       src={singlePost.image16.asset.url}
                       alt={singlePost.title}
-                      style={{ maxHeight: '800px' }}
+                      style={{ maxHeight: '600px' }}
                     />
                   </Carousel.Item>
                 )}
@@ -323,7 +329,7 @@ publishedAt,
                     <img
                       src={singlePost.image17.asset.url}
                       alt={singlePost.title}
-                      style={{ maxHeight: '800px' }}
+                      style={{ maxHeight: '600px' }}
                     />
                   </Carousel.Item>
                 )}
@@ -332,7 +338,7 @@ publishedAt,
                     <img
                       src={singlePost.image18.asset.url}
                       alt={singlePost.title}
-                      style={{ maxHeight: '800px' }}
+                      style={{ maxHeight: '600px' }}
                     />
                   </Carousel.Item>
                 )}
@@ -341,7 +347,7 @@ publishedAt,
                     <img
                       src={singlePost.image19.asset.url}
                       alt={singlePost.title}
-                      style={{ maxHeight: '800px' }}
+                      style={{ maxHeight: '600px' }}
                     />
                   </Carousel.Item>
                 )}
@@ -350,7 +356,7 @@ publishedAt,
                     <img
                       src={singlePost.image20.asset.url}
                       alt={singlePost.title}
-                      style={{ maxHeight: '800px' }}
+                      style={{ maxHeight: '600px' }}
                     />
                   </Carousel.Item>
                 )}
