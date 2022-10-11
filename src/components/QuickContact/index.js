@@ -6,17 +6,13 @@ const QuickContact = ({ phone, email, location }) => {
       <h3>CONTACT</h3>
       <ul>
         <li>
-          <span>Phone:</span>
-          <a href={`tel:${phone}`}>{phone}</a>
+          <span>Instagram:</span>
+          <a href="http://instagram.com/charlieg201">@charlieg201</a>
         </li>
-        <li>
+        {/* <li>
           <span>Email:</span>
           <a href={`mailto:${email}`}>{email}</a>
-        </li>
-        <li>
-          <span>Location:</span>
-          {location}
-        </li>
+        </li> */}
       </ul>
     </div>
   )
