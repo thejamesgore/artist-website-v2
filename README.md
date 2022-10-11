@@ -8,3 +8,4 @@ ToDo
 - change LOAD MORE... to More blogs coming soon
 - gallery arrows should be outside of images and visible
 - dark mode by default
+- change favicon to something
