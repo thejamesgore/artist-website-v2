@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import Thumbnail from '../../components/thumbnail'
 import Content from '../../components/content'
-import aboutData from '../../data/about-me'
+
 import sanityClient from '../../sanity'
 
 const AboutMe = ({ type }) => {

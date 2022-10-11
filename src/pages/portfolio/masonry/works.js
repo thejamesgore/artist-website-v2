@@ -1,11 +1,11 @@
-import React, { Fragment, useState } from 'react'
+import React, { Fragment } from 'react'
 import SideHeader from '../../../components/SideHeader'
 
 import PortfolioMasonryTwoColumn from '../../../templates/portfolio/masonry/two-column'
 import HeaderTwo from '../../../components/header/HeaderTwo'
 
 const Works = () => {
-  const [loading, setLoading] = useState(false)
+  const loading = null
 
   return (
     <Fragment>

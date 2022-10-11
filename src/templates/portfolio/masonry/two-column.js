@@ -56,8 +56,6 @@ publishedAt,
             justifyContent: 'space-around',
             alignItems: 'center',
             paddingTop: '10',
-
-            // flexDirection: 'column',
           }}
         >
           {postData &&
@@ -73,7 +71,9 @@ publishedAt,
                       src={post.image1.asset.url}
                       alt={post.title}
                       className="gallery-img image"
-                      style={{ maxWidth: '600px' }}
+                      style={{
+                        maxWidth: '500px',
+                      }}
                     />
                     <div className="portfolio-content overlay">
                       <div className="title text">{post?.title}</div>
