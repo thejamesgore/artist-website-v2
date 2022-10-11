@@ -4,6 +4,7 @@ Portfolio website for client using React & Sanity for the headless CMS so he can
 
 ToDo
 
+- Contact page styling is off on all devices
 - change bg colour to be consistent across all pages rather than off white
 - change LOAD MORE... to More blogs coming soon
 - instagram link has bug not showing correct link
