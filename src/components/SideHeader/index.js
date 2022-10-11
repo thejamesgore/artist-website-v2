@@ -99,7 +99,7 @@ const SideHeader = ({ mobile }) => {
                   {socialicons.map((icon) => (
                     <a
                       key={icon.id}
-                      href={`https://${icon.media}.com/${icon.username}`}
+                      href={`https://${icon.media}.com/charlieg201`}
                     >
                       <i className={`fa fa-${icon.media}`} />
                     </a>
