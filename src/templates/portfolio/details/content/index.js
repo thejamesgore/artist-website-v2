@@ -151,223 +151,342 @@ publishedAt,
   }, [slug])
 
   return (
-    <>
-      {/* <div>
-        {singlePost && (
-          <p
-            className="text-body"
-            style={{
-              marginTop: '10px',
-              display: 'flex',
-              justifyContent: 'center',
-            }}
-          >
-            {singlePost?.body[0]?.children[0]?.text}
-          </p>
+    <div
+      style={{
+        marginLeft: 200,
+        display: 'flex',
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        flexDirection: 'column',
+      }}
+    >
+      <Carousel variant="dark" interval={5000} style={{}}>
+        {singlePost?.image1 && (
+          <Carousel.Item>
+            <img
+              src={singlePost.image1.asset.url}
+              alt={singlePost.title}
+              className="img"
+              style={{
+                maxHeight: 600,
+                padding: 20,
+                height: 800,
+                objectFit: 'cover',
+              }}
+            />
+          </Carousel.Item>
         )}
-      </div> */}
-      <div>
-        <Carousel interval={5000} variant="dark">
-          {singlePost?.image1 && (
-            <Carousel.Item>
-              <img
-                src={singlePost.image1.asset.url}
-                alt={singlePost.title}
-                className="img"
-              />
-            </Carousel.Item>
-          )}
 
-          {singlePost?.image2 && (
-            <Carousel.Item>
-              <img
-                src={singlePost.image2.asset.url}
-                alt={singlePost.title}
-                className="img"
-              />
-            </Carousel.Item>
-          )}
+        {singlePost?.image2 && (
+          <Carousel.Item>
+            <img
+              src={singlePost.image2.asset.url}
+              alt={singlePost.title}
+              className="img"
+              style={{
+                maxHeight: 600,
+                padding: 20,
+                height: 800,
+                objectFit: 'cover',
+              }}
+            />
+          </Carousel.Item>
+        )}
 
-          {singlePost?.image3 && (
-            <Carousel.Item>
-              <img
-                src={singlePost.image3.asset.url}
-                alt={singlePost.title}
-                className="img"
-              />
-            </Carousel.Item>
-          )}
+        {singlePost?.image3 && (
+          <Carousel.Item>
+            <img
+              src={singlePost.image3.asset.url}
+              alt={singlePost.title}
+              className="img"
+              style={{
+                maxHeight: 600,
+                padding: 20,
+                height: 800,
+                objectFit: 'cover',
+              }}
+            />
+          </Carousel.Item>
+        )}
 
-          {singlePost?.image4 && (
-            <Carousel.Item>
-              <img
-                src={singlePost.image4.asset.url}
-                alt={singlePost.title}
-                className="img"
-              />
-            </Carousel.Item>
-          )}
+        {singlePost?.image4 && (
+          <Carousel.Item>
+            <img
+              src={singlePost.image4.asset.url}
+              alt={singlePost.title}
+              className="img"
+              style={{
+                maxHeight: 600,
+                padding: 20,
+                height: 800,
+                objectFit: 'cover',
+              }}
+            />
+          </Carousel.Item>
+        )}
 
-          {singlePost?.image5 && (
-            <Carousel.Item>
-              <img
-                src={singlePost.image5.asset.url}
-                alt={singlePost.title}
-                className="img"
-              />
-            </Carousel.Item>
-          )}
-          {singlePost?.image6 && (
-            <Carousel.Item>
-              <img
-                src={singlePost.image6.asset.url}
-                alt={singlePost.title}
-                className="img"
-              />
-            </Carousel.Item>
-          )}
+        {singlePost?.image5 && (
+          <Carousel.Item>
+            <img
+              src={singlePost.image5.asset.url}
+              alt={singlePost.title}
+              className="img"
+              style={{
+                maxHeight: 600,
+                padding: 20,
+                height: 800,
+                objectFit: 'cover',
+              }}
+            />
+          </Carousel.Item>
+        )}
+        {singlePost?.image6 && (
+          <Carousel.Item>
+            <img
+              src={singlePost.image6.asset.url}
+              alt={singlePost.title}
+              className="img"
+              style={{
+                maxHeight: 600,
+                padding: 20,
+                height: 800,
+                objectFit: 'cover',
+              }}
+            />
+          </Carousel.Item>
+        )}
 
-          {singlePost?.image7 && (
-            <Carousel.Item>
-              <img
-                src={singlePost.image7.asset.url}
-                alt={singlePost.title}
-                className="img"
-              />
-            </Carousel.Item>
-          )}
+        {singlePost?.image7 && (
+          <Carousel.Item>
+            <img
+              src={singlePost.image7.asset.url}
+              alt={singlePost.title}
+              className="img"
+              style={{
+                maxHeight: 600,
+                padding: 20,
+                height: 800,
+                objectFit: 'cover',
+              }}
+            />
+          </Carousel.Item>
+        )}
 
-          {singlePost?.image8 && (
-            <Carousel.Item>
-              <img
-                src={singlePost.image8.asset.url}
-                alt={singlePost.title}
-                className="img"
-              />
-            </Carousel.Item>
-          )}
+        {singlePost?.image8 && (
+          <Carousel.Item>
+            <img
+              src={singlePost.image8.asset.url}
+              alt={singlePost.title}
+              className="img"
+              style={{
+                maxHeight: 600,
+                padding: 20,
+                height: 800,
+                objectFit: 'cover',
+              }}
+            />
+          </Carousel.Item>
+        )}
 
-          {singlePost?.image9 && (
-            <Carousel.Item>
-              <img
-                src={singlePost.image9.asset.url}
-                alt={singlePost.title}
-                className="img"
-              />
-            </Carousel.Item>
-          )}
+        {singlePost?.image9 && (
+          <Carousel.Item>
+            <img
+              src={singlePost.image9.asset.url}
+              alt={singlePost.title}
+              className="img"
+              style={{
+                maxHeight: 600,
+                padding: 20,
+                height: 800,
+                objectFit: 'cover',
+              }}
+            />
+          </Carousel.Item>
+        )}
 
-          {singlePost?.image10 && (
-            <Carousel.Item>
-              <img
-                src={singlePost.image10.asset.url}
-                alt={singlePost.title}
-                className="img"
-              />
-            </Carousel.Item>
-          )}
-          {singlePost?.image10 && (
-            <Carousel.Item>
-              <img
-                src={singlePost.image10.asset.url}
-                alt={singlePost.title}
-                className="img"
-              />
-            </Carousel.Item>
-          )}
-          {singlePost?.image11 && (
-            <Carousel.Item>
-              <img
-                src={singlePost.image11.asset.url}
-                alt={singlePost.title}
-                className="img"
-              />
-            </Carousel.Item>
-          )}
-          {singlePost?.image12 && (
-            <Carousel.Item>
-              <img
-                src={singlePost.image12.asset.url}
-                alt={singlePost.title}
-                className="img"
-              />
-            </Carousel.Item>
-          )}
-          {singlePost?.image13 && (
-            <Carousel.Item>
-              <img
-                src={singlePost.image13.asset.url}
-                alt={singlePost.title}
-                className="img"
-              />
-            </Carousel.Item>
-          )}
-          {singlePost?.image14 && (
-            <Carousel.Item>
-              <img
-                src={singlePost.image15.asset.url}
-                alt={singlePost.title}
-                className="img"
-              />
-            </Carousel.Item>
-          )}
-          {singlePost?.image15 && (
-            <Carousel.Item>
-              <img
-                src={singlePost.image15.asset.url}
-                alt={singlePost.title}
-                className="img"
-              />
-            </Carousel.Item>
-          )}
-          {singlePost?.image16 && (
-            <Carousel.Item>
-              <img
-                src={singlePost.image16.asset.url}
-                alt={singlePost.title}
-                className="img"
-              />
-            </Carousel.Item>
-          )}
-          {singlePost?.image17 && (
-            <Carousel.Item>
-              <img
-                src={singlePost.image17.asset.url}
-                alt={singlePost.title}
-                className="img"
-              />
-            </Carousel.Item>
-          )}
-          {singlePost?.image18 && (
-            <Carousel.Item>
-              <img
-                src={singlePost.image18.asset.url}
-                alt={singlePost.title}
-                className="img"
-              />
-            </Carousel.Item>
-          )}
-          {singlePost?.image19 && (
-            <Carousel.Item>
-              <img
-                src={singlePost.image19.asset.url}
-                alt={singlePost.title}
-                className="img"
-              />
-            </Carousel.Item>
-          )}
-          {singlePost?.image20 && (
-            <Carousel.Item>
-              <img
-                src={singlePost.image20.asset.url}
-                alt={singlePost.title}
-                className="img"
-              />
-            </Carousel.Item>
-          )}
-        </Carousel>
-      </div>
-    </>
+        {singlePost?.image10 && (
+          <Carousel.Item>
+            <img
+              src={singlePost.image10.asset.url}
+              alt={singlePost.title}
+              className="img"
+              style={{
+                maxHeight: 600,
+                padding: 20,
+                height: 800,
+                objectFit: 'cover',
+              }}
+            />
+          </Carousel.Item>
+        )}
+        {singlePost?.image10 && (
+          <Carousel.Item>
+            <img
+              src={singlePost.image10.asset.url}
+              alt={singlePost.title}
+              className="img"
+              style={{
+                maxHeight: 600,
+                padding: 20,
+                height: 800,
+                objectFit: 'cover',
+              }}
+            />
+          </Carousel.Item>
+        )}
+        {singlePost?.image11 && (
+          <Carousel.Item>
+            <img
+              src={singlePost.image11.asset.url}
+              alt={singlePost.title}
+              className="img"
+              style={{
+                maxHeight: 600,
+                padding: 20,
+                height: 800,
+                objectFit: 'cover',
+              }}
+            />
+          </Carousel.Item>
+        )}
+        {singlePost?.image12 && (
+          <Carousel.Item>
+            <img
+              src={singlePost.image12.asset.url}
+              alt={singlePost.title}
+              className="img"
+              style={{
+                maxHeight: 600,
+                padding: 20,
+                height: 800,
+                objectFit: 'cover',
+              }}
+            />
+          </Carousel.Item>
+        )}
+        {singlePost?.image13 && (
+          <Carousel.Item>
+            <img
+              src={singlePost.image13.asset.url}
+              alt={singlePost.title}
+              className="img"
+              style={{
+                maxHeight: 600,
+                padding: 20,
+                height: 800,
+                objectFit: 'cover',
+              }}
+            />
+          </Carousel.Item>
+        )}
+        {singlePost?.image14 && (
+          <Carousel.Item>
+            <img
+              src={singlePost.image15.asset.url}
+              alt={singlePost.title}
+              className="img"
+              style={{
+                maxHeight: 600,
+                padding: 20,
+                height: 800,
+                objectFit: 'cover',
+              }}
+            />
+          </Carousel.Item>
+        )}
+        {singlePost?.image15 && (
+          <Carousel.Item>
+            <img
+              src={singlePost.image15.asset.url}
+              alt={singlePost.title}
+              className="img"
+              style={{
+                maxHeight: 600,
+                padding: 20,
+                height: 800,
+                objectFit: 'cover',
+              }}
+            />
+          </Carousel.Item>
+        )}
+        {singlePost?.image16 && (
+          <Carousel.Item>
+            <img
+              src={singlePost.image16.asset.url}
+              alt={singlePost.title}
+              className="img"
+              style={{
+                maxHeight: 600,
+                padding: 20,
+                height: 800,
+                objectFit: 'cover',
+              }}
+            />
+          </Carousel.Item>
+        )}
+        {singlePost?.image17 && (
+          <Carousel.Item>
+            <img
+              src={singlePost.image17.asset.url}
+              alt={singlePost.title}
+              className="img"
+              style={{
+                maxHeight: 600,
+                padding: 20,
+                height: 800,
+                objectFit: 'cover',
+              }}
+            />
+          </Carousel.Item>
+        )}
+        {singlePost?.image18 && (
+          <Carousel.Item>
+            <img
+              src={singlePost.image18.asset.url}
+              alt={singlePost.title}
+              className="img"
+              style={{
+                maxHeight: 600,
+                padding: 20,
+                height: 800,
+                objectFit: 'cover',
+              }}
+            />
+          </Carousel.Item>
+        )}
+        {singlePost?.image19 && (
+          <Carousel.Item>
+            <img
+              src={singlePost.image19.asset.url}
+              alt={singlePost.title}
+              className="img"
+              style={{
+                maxHeight: 600,
+                padding: 20,
+                height: 800,
+                objectFit: 'cover',
+              }}
+            />
+          </Carousel.Item>
+        )}
+        {singlePost?.image20 && (
+          <Carousel.Item>
+            <img
+              src={singlePost.image20.asset.url}
+              alt={singlePost.title}
+              className="img"
+              style={{
+                maxHeight: 600,
+                padding: 20,
+                height: 800,
+                objectFit: 'cover',
+              }}
+            />
+          </Carousel.Item>
+        )}
+      </Carousel>
+    </div>
   )
 }
 
