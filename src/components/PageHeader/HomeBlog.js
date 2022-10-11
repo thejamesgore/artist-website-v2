@@ -153,8 +153,6 @@ publishedAt,
       <div className="container">
         <div className="row">
           <div className="blog-home-hero-content text-center col">
-            TEST
-            {/*  */}
             <div
               style={{
                 flex: 1,
