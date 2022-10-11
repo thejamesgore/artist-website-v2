@@ -4,6 +4,7 @@ Portfolio website for client using React & Sanity for the headless CMS so he can
 
 ToDo
 
+- Gallery not visible on mobile
 - change bg colour to be consistent across all pages rather than off white
 - change LOAD MORE... to More blogs coming soon
 - gallery arrows should be outside of images and visible
