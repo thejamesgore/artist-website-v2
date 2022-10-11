@@ -170,6 +170,7 @@ publishedAt,
               className="img"
               style={{
                 maxHeight: 600,
+
                 padding: 20,
                 height: 800,
                 objectFit: 'cover',
