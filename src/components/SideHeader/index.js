@@ -86,14 +86,14 @@ const SideHeader = ({ mobile }) => {
               </div>
 
               <div className="side-header-footer pb-120 pb-lg-80 pb-md-80 pb-sm-80 pb-xs-50">
-                <div className="side-header-contact-info">
+                {/* <div className="side-header-contact-info">
                   <p>
                     <a href="/">Your number</a>
                   </p>
                   <p>
                     <a href="/">Your email</a>
                   </p>
-                </div>
+                </div> */}
 
                 <div className="side-header-social">
                   {socialicons.map((icon) => (
