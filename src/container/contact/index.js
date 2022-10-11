@@ -14,7 +14,6 @@ const Contact = () => {
                   <QuickContact
                     phone={'your number'}
                     email={'your contact email'}
-                    location={'Soas or PO box'}
                   />
                 </Col>
               </Row>
