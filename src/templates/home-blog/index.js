@@ -36,7 +36,6 @@ const ContentHomeBlogPage = () => {
     <div className="content-body section custom-scroll">
       <div className="section-wrap section">
         <HomeBlogPageHeader />
-
         <div className="blog-wrap bg-grey section-padding pl-15 pl-xs-0 pr-15 pr-xs-0">
           <div className="container">
             <div className="row blog-content-wrap">
