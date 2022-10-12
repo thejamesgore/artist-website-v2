@@ -60,26 +60,38 @@ publishedAt,
         >
           {postData &&
             postData.map((post, index) => (
-              <div style={{ paddingTop: 10 }} key={index}>
-                <Link
-                  to={'/works/' + post.slug.current}
-                  key={post?.slug.current}
-                  className={'d-block'}
-                >
-                  <div className="portfolio-image container">
-                    <img
-                      src={post.image1.asset.url}
-                      alt={post.title}
-                      className="gallery-img image"
-                      style={{
-                        maxWidth: '500px',
-                      }}
-                    />
-                    <div className="portfolio-content overlay">
-                      <div className="title text">{post?.title}</div>
+              <div style={{}}>
+                <div style={{ paddingTop: 10 }} key={index}>
+                  <Link
+                    to={'/works/' + post.slug.current}
+                    key={post?.slug.current}
+                    className={'d-block'}
+                  >
+                    <div className="portfolio-image container">
+                      <img
+                        src={post.image1.asset.url}
+                        alt={post.title}
+                        className="gallery-img image"
+                        style={{
+                          maxWidth: '500px',
+                        }}
+                      />
+                      <div className="portfolio-content overlay">
+                        <div className="title text">{post?.title}</div>
+                      </div>
                     </div>
-                  </div>
-                </Link>
+                  </Link>
+                </div>
+                <p
+                  style={{
+                    margin: 5,
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                  }}
+                >
+                  {post?.title}
+                </p>
               </div>
             ))}
         </div>
