@@ -176,7 +176,7 @@ publishedAt,
                     <img
                       src={singlePost.image2.asset.url}
                       alt={singlePost.title}
-                      style={{ maxHeight: '600px' }}
+                      style={{ Height: '600px' }}
                     />
                   </Carousel.Item>
                 )}
