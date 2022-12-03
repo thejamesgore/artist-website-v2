@@ -159,7 +159,7 @@ publishedAt,
         flexDirection: 'column',
       }}
     >
-      <Carousel variant="dark" interval={5000} style={{}}>
+      <Carousel controls={false} interval={5000} style={{}}>
         {singlePost?.image1 && (
           <Carousel.Item>
             <img
@@ -167,8 +167,9 @@ publishedAt,
               alt={singlePost.title}
               className="img"
               style={{
-                maxHeight: 1000,
-                padding: 20,
+                maxHeight: '90vh',
+                maxWidth: '90vw',
+                justifySelf: 'center',
               }}
             />
           </Carousel.Item>
@@ -181,8 +182,9 @@ publishedAt,
               alt={singlePost.title}
               className="img"
               style={{
-                maxHeight: 1000,
-                padding: 20,
+                maxHeight: '90vh',
+                maxWidth: '90vw',
+                justifySelf: 'center',
               }}
             />
           </Carousel.Item>
@@ -195,8 +197,9 @@ publishedAt,
               alt={singlePost.title}
               className="img"
               style={{
-                maxHeight: 1000,
-                padding: 20,
+                maxHeight: '90vh',
+                maxWidth: '90vw',
+                justifySelf: 'center',
               }}
             />
           </Carousel.Item>
@@ -209,8 +212,9 @@ publishedAt,
               alt={singlePost.title}
               className="img"
               style={{
-                maxHeight: 1000,
-                padding: 20,
+                maxHeight: '90vh',
+                maxWidth: '90vw',
+                justifySelf: 'center',
               }}
             />
           </Carousel.Item>
@@ -223,8 +227,9 @@ publishedAt,
               alt={singlePost.title}
               className="img"
               style={{
-                maxHeight: 1000,
-                padding: 20,
+                maxHeight: '90vh',
+                maxWidth: '90vw',
+                justifySelf: 'center',
               }}
             />
           </Carousel.Item>
@@ -236,8 +241,9 @@ publishedAt,
               alt={singlePost.title}
               className="img"
               style={{
-                maxHeight: 1000,
-                padding: 20,
+                maxHeight: '90vh',
+                maxWidth: '90vw',
+                justifySelf: 'center',
               }}
             />
           </Carousel.Item>
@@ -250,8 +256,9 @@ publishedAt,
               alt={singlePost.title}
               className="img"
               style={{
-                maxHeight: 1000,
-                padding: 20,
+                maxHeight: '90vh',
+                maxWidth: '90vw',
+                justifySelf: 'center',
               }}
             />
           </Carousel.Item>
@@ -264,8 +271,9 @@ publishedAt,
               alt={singlePost.title}
               className="img"
               style={{
-                maxHeight: 1000,
-                padding: 20,
+                maxHeight: '90vh',
+                maxWidth: '90vw',
+                justifySelf: 'center',
               }}
             />
           </Carousel.Item>
@@ -278,8 +286,9 @@ publishedAt,
               alt={singlePost.title}
               className="img"
               style={{
-                maxHeight: 1000,
-                padding: 20,
+                maxHeight: '90vh',
+                maxWidth: '90vw',
+                justifySelf: 'center',
               }}
             />
           </Carousel.Item>
@@ -292,8 +301,9 @@ publishedAt,
               alt={singlePost.title}
               className="img"
               style={{
-                maxHeight: 1000,
-                padding: 20,
+                maxHeight: '90vh',
+                maxWidth: '90vw',
+                justifySelf: 'center',
               }}
             />
           </Carousel.Item>
@@ -305,8 +315,9 @@ publishedAt,
               alt={singlePost.title}
               className="img"
               style={{
-                maxHeight: 1000,
-                padding: 20,
+                maxHeight: '90vh',
+                maxWidth: '90vw',
+                justifySelf: 'center',
               }}
             />
           </Carousel.Item>
@@ -318,8 +329,9 @@ publishedAt,
               alt={singlePost.title}
               className="img"
               style={{
-                maxHeight: 1000,
-                padding: 20,
+                maxHeight: '90vh',
+                maxWidth: '90vw',
+                justifySelf: 'center',
               }}
             />
           </Carousel.Item>
@@ -331,8 +343,9 @@ publishedAt,
               alt={singlePost.title}
               className="img"
               style={{
-                maxHeight: 1000,
-                padding: 20,
+                maxHeight: '90vh',
+                maxWidth: '90vw',
+                justifySelf: 'center',
               }}
             />
           </Carousel.Item>
@@ -344,8 +357,9 @@ publishedAt,
               alt={singlePost.title}
               className="img"
               style={{
-                maxHeight: 1000,
-                padding: 20,
+                maxHeight: '90vh',
+                maxWidth: '90vw',
+                justifySelf: 'center',
               }}
             />
           </Carousel.Item>
@@ -357,8 +371,9 @@ publishedAt,
               alt={singlePost.title}
               className="img"
               style={{
-                maxHeight: 1000,
-                padding: 20,
+                maxHeight: '90vh',
+                maxWidth: '90vw',
+                justifySelf: 'center',
               }}
             />
           </Carousel.Item>
@@ -370,8 +385,9 @@ publishedAt,
               alt={singlePost.title}
               className="img"
               style={{
-                maxHeight: 1000,
-                padding: 20,
+                maxHeight: '90vh',
+                maxWidth: '90vw',
+                justifySelf: 'center',
               }}
             />
           </Carousel.Item>
@@ -383,8 +399,9 @@ publishedAt,
               alt={singlePost.title}
               className="img"
               style={{
-                maxHeight: 1000,
-                padding: 20,
+                maxHeight: '90vh',
+                maxWidth: '90vw',
+                justifySelf: 'center',
               }}
             />
           </Carousel.Item>
@@ -396,8 +413,9 @@ publishedAt,
               alt={singlePost.title}
               className="img"
               style={{
-                maxHeight: 1000,
-                padding: 20,
+                maxHeight: '90vh',
+                maxWidth: '90vw',
+                justifySelf: 'center',
               }}
             />
           </Carousel.Item>
@@ -409,8 +427,9 @@ publishedAt,
               alt={singlePost.title}
               className="img"
               style={{
-                maxHeight: 1000,
-                padding: 20,
+                maxHeight: '90vh',
+                maxWidth: '90vw',
+                justifySelf: 'center',
               }}
             />
           </Carousel.Item>
@@ -422,8 +441,9 @@ publishedAt,
               alt={singlePost.title}
               className="img"
               style={{
-                maxHeight: 1000,
-                padding: 20,
+                maxHeight: '90vh',
+                maxWidth: '90vw',
+                justifySelf: 'center',
               }}
             />
           </Carousel.Item>
@@ -435,8 +455,9 @@ publishedAt,
               alt={singlePost.title}
               className="img"
               style={{
-                maxHeight: 1000,
-                padding: 20,
+                maxHeight: '90vh',
+                maxWidth: '90vw',
+                justifySelf: 'center',
               }}
             />
           </Carousel.Item>
