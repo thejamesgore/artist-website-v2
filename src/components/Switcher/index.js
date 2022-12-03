@@ -33,7 +33,7 @@ const Switcher = () => {
     // Check Theme Version
     const btnTheme = document.querySelector('.btn-theme')
     if (body.classList.contains('dark-version')) {
-      btnTheme.classList.add('active')
+      btnTheme.classList.add('dark-version')
     }
   })
 

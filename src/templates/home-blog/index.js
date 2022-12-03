@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import sanityClient from '../../sanity'
-import { Link } from 'react-router-dom'
 
 import HomeBlogPageHeader from '../../components/PageHeader/HomeBlog'
 
@@ -36,16 +35,12 @@ const ContentHomeBlogPage = () => {
     <div className="content-body section custom-scroll">
       <div className="section-wrap section">
         <HomeBlogPageHeader />
-        <div className="blog-wrap bg-grey section-padding pl-15 pl-xs-0 pr-15 pr-xs-0">
+        {/* <div className="blog-wrap bg-grey section-padding pl-15 pl-xs-0 pr-15 pr-xs-0">
           <div className="container">
             <div className="row blog-content-wrap">
               {postData &&
                 postData.map((post, index) => (
-                  <div
-                    key={index}
-                    className="blog-item"
-                    style={{ margin: '10px 10px' }}
-                  >
+                  <div key={index}>
                     <div className="blog-image">
                       <Link
                         to={`/blog/${
@@ -53,7 +48,7 @@ const ContentHomeBlogPage = () => {
                         }`}
                       >
                         <img
-                          style={{ maxHeight: '230px', maxWidth: '370px' }}
+                          style={{ maxHeight: '100vh' }}
                           src={post.mainImage.asset.url}
                           alt={post.title}
                         />
@@ -92,7 +87,7 @@ const ContentHomeBlogPage = () => {
                 ))}
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   )
