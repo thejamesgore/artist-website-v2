@@ -26,16 +26,16 @@ const Switcher = () => {
   }
 
   useEffect(() => {
-    // console.log(`BANANAS`)
-  }, [])
-
-  useEffect(() => {
     // Check Theme Version
     const btnTheme = document.querySelector('.btn-theme')
     if (body.classList.contains('dark-version')) {
       btnTheme.classList.add('dark-version')
     }
   })
+
+  useEffect(() => {
+    body.classList.toggle('dark-version')
+  }, [])
 
   const colorLists = {
     // 'color-var-0': '#212121',
@@ -58,22 +58,17 @@ const Switcher = () => {
   }
   return (
     <div className="customizer-wrap">
-      <button className="customizer-toggle" onClick={customizerHandler}>
+      {/* <button className="customizer-toggle" onClick={customizerHandler}>
         <i className="fa fa-cog fa-spin" style={{ pointerEvents: 'none' }} />
       </button>
       <div className="customizer-inner">
-        <div className="customizer-item">
-          <h4>Chose Color</h4>
-          <ul className="color-setting">{coloPickItem}</ul>
-        </div>
-        {/* Dark mode */}
         <div className="customizer-item mt-25">
           <h4>Switch Theme</h4>
           <button className="btn-theme" onClick={themeHandler}>
             <span className="ball" />
           </button>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
