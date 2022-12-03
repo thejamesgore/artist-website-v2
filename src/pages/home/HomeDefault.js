@@ -19,8 +19,8 @@ const HomeDefault = () => {
 
   return (
     <div className={'main-wrapper'}>
-      <Header />
-      <SideHeader mobile={true} />
+      {/* <Header /> */}
+      {/* <SideHeader mobile={true} /> */}
       <PortfolioDefault ref={slider} limit={5} />
       <Footer prev={SlidePrev} next={SlideNext} />
     </div>
