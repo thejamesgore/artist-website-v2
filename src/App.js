@@ -7,6 +7,7 @@ import ErrorPage from './pages/404Error'
 import ContactPage from './pages/contact'
 import HomeBlog from './pages/home/HomeBlog'
 import BlogDetailsPage from './pages/blog/BlogDetails'
+// import Galleries from './pages/galleries'
 
 import BlogThreeColumnPage from './pages/blog/ThreeColumn'
 import PortfolioDetailsPage from './pages/portfolio/details'
@@ -33,8 +34,14 @@ const App = () => {
             path={`${process.env.PUBLIC_URL + '/blog'}`}
             component={BlogThreeColumnPage}
           />
+
           <Route
             path={`${process.env.PUBLIC_URL + '/works/:slug'}`}
+            component={PortfolioDetailsPage}
+          />
+
+          <Route
+            path={`${process.env.PUBLIC_URL + '/galleries'}`}
             component={PortfolioDetailsPage}
           />
 
