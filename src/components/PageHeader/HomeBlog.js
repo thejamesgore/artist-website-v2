@@ -157,8 +157,8 @@ publishedAt,
         flexDirection: 'column',
       }}
     >
-      <Carousel controls={false} indicators={false} interval={4500}>
-        {singlePost?.image1 && (
+      <Carousel controls={false} fade indicators={false} interval={6500}>
+        {/* {singlePost?.image1 && (
           <Carousel.Item>
             <img
               src={singlePost.image1.asset.url}
@@ -212,7 +212,7 @@ publishedAt,
               }}
             />
           </Carousel.Item>
-        )}
+        )} */}
 
         {singlePost?.image5 && (
           <Carousel.Item>
@@ -227,7 +227,8 @@ publishedAt,
             />
           </Carousel.Item>
         )}
-        {singlePost?.image6 && (
+
+        {/* {singlePost?.image6 && (
           <Carousel.Item>
             <img
               src={singlePost.image6.asset.url}
@@ -438,7 +439,7 @@ publishedAt,
               }}
             />
           </Carousel.Item>
-        )}
+        )} */}
       </Carousel>
     </div>
   )
